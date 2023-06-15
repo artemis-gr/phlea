@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="102.47921"
+   width="52.962486"
+   id="svg10"
+   version="1.1"
+   y="0px"
+   x="0px"
+   viewBox="0 0 52.962486 102.47921"
+   data-name="Layer 1"
+   sodipodi:docname="arrow-left.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     id="namedview7"
+     showgrid="false"
+     inkscape:zoom="3.3353149"
+     inkscape:cx="19.80332"
+     inkscape:cy="24.353218"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Forward</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <title
+     id="title2">Forward</title>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#000000;fill-opacity:0.70588237;stroke:none;stroke-opacity:1"
+     id="path4-9"
+     d="m 51.996148,3.2524695 a 2.84,2.84 0 0 0 -2,-0.840001 2.74,2.74 0 0 0 -2,0.840001 L 0.8361459,50.412471 a 2.81,2.81 0 0 0 0,4 L 47.996148,101.58247 a 2.83,2.83 0 1 0 4,-3.999999 L 6.8361459,52.412471 51.996148,7.2524694 a 2.82,2.82 0 0 0 0,-3.9999999 z" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+     id="path4"
+     d="m 52.065777,0.84012106 a 2.84,2.84 0 0 0 -2,-0.84000100345 2.74,2.74 0 0 0 -2,0.84000100345 L 0.90577646,48.000122 a 2.81,2.81 0 0 0 0,4 l 47.16000054,47.17 a 2.83,2.83 0 1 0 4,-4 L 6.9057764,50.000122 52.065777,4.8401211 a 2.82,2.82 0 0 0 0,-4.00000004 z"
+     inkscape:connector-curvature="0" />
+</svg>

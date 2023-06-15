@@ -1,0 +1,431 @@
+/*-- Body Reset --*/
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  height: 100%;
+  text-align: left;
+}
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+
+h1 {
+  font-family: 'Dancing Script';
+  color: rgb(65, 126, 101);
+  text-align: center;
+  font-size: 44px;
+}
+.heading-section {
+  margin-right: 35px;
+}
+p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.quote {
+  margin: auto;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(65, 126, 101);
+  border-left: solid 2px rgb(65, 126, 101);
+  padding-left: 20px;
+}
+
+.text-block {
+  padding-left:33px;
+}
+.text-title {
+  padding-left:0;
+}
+
+.btn-primary {
+    background-color: rgb(65, 126, 101);
+    border-color: rgb(65, 126, 101);
+    border-radius: unset;
+}
+
+.btn-primary:hover {
+    background-color: rgb(198, 99, 68)!important;
+    border-color: rgb(198, 99, 68)!important;
+}
+
+.btn-primary:active {
+  background-color: rgb(65, 126, 101)!important;
+  border-color: rgb(65, 126, 101)!important;
+}
+.btn-primary:focus {
+  background-color: rgb(198, 99, 68)!important;
+  border-color: rgb(198, 99, 68)!important;
+}
+
+
+/*============= TOP BAR HEADER =============*/
+
+
+
+/*============= NAVIGATION =============*/
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: white!important;
+}
+.navbar {
+    padding: 0!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(65, 126, 101);
+  font-weight: 700;
+  font-size: 17px;
+}
+a {
+text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(198, 99, 68)!important;
+}
+
+.navbar-brand {
+    margin-right: 0!important;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(65, 126, 101, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.carousel-indicators li {
+    width: 25px;
+    height: 2.5px;
+    border-bottom: 20px solid transparent;
+}
+
+/*============= CAROUSEL =============*/
+
+
+
+/*---Change Carousel Transition Speed --*/
+
+
+/*-- Carousel Content --*/
+
+
+
+/*===== FIXED BACKGROUND IMG =====*/
+
+.fixed-background {
+  overflow: hidden; /*-- Correction for iOS --*/
+}
+
+
+/*-- Emoji Navbar --*/
+
+
+
+/*============= FOOTER =============*/
+.social-icons {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  margin: 10px;
+}
+.small, small {
+    font-size: 90%;
+    font-weight: 400;
+}
+
+/*============= SOCKET =============*/
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*-- Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999!important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.logo {
+  padding-top: 0!important;
+}
+
+.logo-image {
+    background-image: url(https://phlea.gr/images/logo-final.png);
+    width: 125px;
+    height: 139px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*
+.logo-image:hover {
+    background-image: url(https://phlea.gr/images/orange-logo.png);
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.logo-image:active {
+    background-image: url(https://phlea.gr/images/orange-logo.png);
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}*/
+
+.logo-image-nav {
+    background-image: url(https://phlea.gr/images/logo-final.png);
+    width: 90px;
+    height: 100px;
+    overflow: hidden;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-fill .nav-item {
+    padding-top: 100px;
+}
+.main-image {
+  text-align: center;
+}
+
+.responsive {
+  width: 100%!important;
+  height: auto!important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto!important;
+  }
+  .carousel-control-prev-icon {
+    background-image: url();
+}
+.carousel-control-next-icon {
+    background-image: url();
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 30px;
+    height: 50px;
+}
+
+.carousel-indicators li {
+    background-color: transparent;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: unset;
+}
+
+.carousel .carousel-controls {
+  visibility: hidden;
+}
+
+.carousel:hover .carousel-controls {
+  visibility: visible;
+}
+
+/*-- Rooms --*/
+
+.card {
+    border: none;
+    border-radius: unset;
+}
+
+.card-body {
+    padding: 30 50 30 50;
+    text-align: center;
+    border-bottom: 1px solid rgb(65, 126, 101);
+    border-left: 1px solid rgb(65, 126, 101);
+    border-right: 1px solid rgb(65, 126, 101);
+    border-radius: unset;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+
+}
+/* Devices under 768px (md) */
+@media (max-width: 768.98px) {
+
+  .nav-fill .nav-item {
+    padding-top: 0!important;
+}
+  .arrow-home {
+    display: none;
+  }
+
+h1 {
+  font-size: 40px;
+}
+ul.navbar-nav.nav-fill.w-100 {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background: rgba(239, 239, 239, 0.5);
+}
+.heading-section {
+  margin-right: auto;
+}
+.text {
+    width: 18rem;
+    margin: auto!important;
+}
+.text-block {
+  padding-left:0;
+  padding-right:0;
+}
+.text-title {
+  padding-left:0;
+  padding-right:0;
+}
+
+.quote {
+    margin: auto;
+    font-size: 24px;
+    line-height: 40px;
+    color: rgb(65, 126, 101);
+    border-left: none;
+    padding-bottom: 15px;
+    padding-left: 0;
+}
+
+}
+.map-wrapper {
+  max-width: 970px;
+}
+.map{
+  -webkit-filter: grayscale(80%);
+  -moz-filter: grayscale(80%);
+  -o-filter: grayscale(80%);
+  filter: grayscale(80%);
+  width: 100%;
+}
+
+.icons-contact {
+  width: 44px;
+  height: 44px;
+}
+
+@media (max-width: 767.98px) {
+ul.navbar-nav.nav-fill.w-100 {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background: rgba(239, 239, 239, 0.5);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(65, 126, 101);
+    font-weight: 400;
+}
+.card-body {
+  padding: 1.25rem;
+}
+.card {
+  margin: auto;
+}
+.heading-section {
+  margin-right: auto;
+}
+.text {
+    width: 18rem;
+    margin: auto!important;
+}
+.text-block {
+  padding-left:0;
+  padding-right:0;
+}
+.text-title {
+  padding-left:0;
+  padding-right:0;
+}
+
+.quote {
+    margin: auto;
+    font-size: 22px;
+    line-height: 40px;
+    color: rgb(65, 126, 101);
+    border-left: none;
+    padding-bottom: 15px;
+    padding-left: 0;
+}
+
+}
